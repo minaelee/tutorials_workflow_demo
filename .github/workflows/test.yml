@@ -2,8 +2,8 @@ name: Learn Github Packaging
 on: [push]
 jobs:
     build:
-    runs-on: ubuntu-latest
-    steps:
+      runs-on: ubuntu-latest
+      steps:
         - uses: actions/checkout@v2
         - name: Run a one-line script
           run: echo Packaging citylocations for release!
